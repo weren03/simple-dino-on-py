@@ -141,7 +141,7 @@ def game_loop():
 
         if game_over:
             draw_text("Игра окончена", big_font, BLACK, WIDTH // 2, HEIGHT // 2 - 30, center=True)
-            draw_text(f"Финальный счёт: {score // 10}", font, BLACK, WIDTH // 2, HEIGHT // 2 + 20, center=True)
+            draw_text(f"Счёт: {score // 10}", font, BLACK, WIDTH // 2, HEIGHT // 2 + 20, center=True)
             draw_text("Нажмите R чтобы перезапустить", font, BLACK, WIDTH // 2, HEIGHT // 2 + 60, center=True)
 
         pygame.display.flip()
